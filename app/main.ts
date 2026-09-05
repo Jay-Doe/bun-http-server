@@ -8,7 +8,7 @@ console.log("Logs from your program will appear here!");
    });
    socket.on("data", () => {
      const response = [
-       "HTTP\\1.1 200 ok",
+       "HTTP/1.1 200 ok",
        "",
        "",
      ].join("\r\n");
